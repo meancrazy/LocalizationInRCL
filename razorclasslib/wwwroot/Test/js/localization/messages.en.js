@@ -1,0 +1,4 @@
+﻿function foo()
+{
+    alert("en");
+}
