@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="wwwroot/**/*" />
+    <EmbeddedResource Include="wwwroot/**/*.js" />
   </ItemGroup>
 
   <ItemGroup>
@@ -14,7 +14,5 @@
     <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="2.1.1" />
     <PackageReference Include="Microsoft.Extensions.FileProviders.Embedded" Version="2.1.1" />
   </ItemGroup>
-  <ItemGroup>
-    <Compile Remove="Areas\MyFeature\Pages\Page1.cshtml.cs" />
-  </ItemGroup>
+  
 </Project>
